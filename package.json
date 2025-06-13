@@ -1,0 +1,24 @@
+{
+  "name": "gpsc-e-recruitment-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "list": "node fetchInterface.js list",
+    "db": "node fetchInterface.js DBTEST",
+    "hpai003": "node fetchInterface.js HPAI003",
+    "hpai002": "node fetchInterface.js HPAI002"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
